@@ -3,6 +3,7 @@ package org.recruitmentservice.service;
 
 import lombok.RequiredArgsConstructor;
 import org.recruitmentservice.entity.Employee;
+import org.recruitmentservice.exception.NoSuchEmployeeException;
 import org.recruitmentservice.repository.EmployeeRepository;
 import org.springframework.stereotype.Service;
 

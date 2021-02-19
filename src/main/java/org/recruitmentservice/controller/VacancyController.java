@@ -8,6 +8,7 @@ import org.recruitmentservice.dto.VacancyDto;
 import org.recruitmentservice.entity.Resume;
 import org.recruitmentservice.entity.Skill;
 import org.recruitmentservice.entity.Vacancy;
+import org.recruitmentservice.exception.NoSuchVacancyException;
 import org.recruitmentservice.service.EmployerService;
 import org.recruitmentservice.service.SkillService;
 import org.recruitmentservice.service.VacancyService;

@@ -3,6 +3,7 @@ package org.recruitmentservice.service;
 
 import lombok.RequiredArgsConstructor;
 import org.recruitmentservice.entity.Skill;
+import org.recruitmentservice.exception.NoSuchSkillException;
 import org.recruitmentservice.repository.SkillRepository;
 import org.springframework.stereotype.Service;
 
